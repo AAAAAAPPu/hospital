@@ -1,0 +1,78 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>RecordView</class>
+ <widget class="QWidget" name="RecordView">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>743</width>
+    <height>517</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>就诊记录管理</string>
+  </property>
+  <property name="styleSheet">
+   <string notr="true">background-color: rgb(255, 238, 228);</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout">
+   <item>
+    <layout class="QHBoxLayout" name="horizontalLayout">
+     <item>
+      <widget class="QLineEdit" name="txtSearch">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(255, 255, 255);</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btSearch">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 127, 66);</string>
+       </property>
+       <property name="text">
+        <string>查找</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btAdd">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 127, 66);</string>
+       </property>
+       <property name="text">
+        <string>添加</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btDelete">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 127, 66);</string>
+       </property>
+       <property name="text">
+        <string>删除</string>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="QPushButton" name="btEdit">
+       <property name="styleSheet">
+        <string notr="true">background-color: rgb(241, 127, 66);</string>
+       </property>
+       <property name="text">
+        <string>修改</string>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+   <item>
+    <widget class="QTableView" name="tableView"/>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
